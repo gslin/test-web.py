@@ -1,3 +1,7 @@
+import web
+
+render = web.template.render('views/')
+
 class index(object):
     def GET(self):
-        return 'Hello, world.'
+        return render.index()
