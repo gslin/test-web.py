@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "test"
+version = "0.2020.0424.0"
+description = "test"
+
+license = "MIT"
+
+authors = [
+    "Gea-Suan Lin <gslin@gslin.com>"
+]
+
+readme = "README.md"
+
+repository = "https://github.com/gslin/test-web.py.git"
+homepage = "https://github.com/gslin/test-web.py"
+
+keywords = ["test"]
+
+[tool.poetry.dependencies]
+pip = "*"
+uwsgi = "*"
+web-py = "*"
+
+[tool.poetry.dev-dependencies]
+coverage = "*"
+nose = "*"
