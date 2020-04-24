@@ -2,6 +2,6 @@
 
 import web
 
-urls = ()
+urls = ('/', 'controllers.index')
 app = web.application(urls, globals())
 application = app.wsgifunc()
